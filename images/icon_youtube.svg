@@ -1,0 +1,14 @@
+<svg id="Icons_White" data-name="Icons White" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>icon_youtube</title>
+  <g>
+    <polygon class="cls-1" points="20.73 33.53 31.4 25 20.73 16.46 20.73 33.53"/>
+    <path class="cls-1" d="M25,0A25,25,0,1,0,50,25,25,25,0,0,0,25,0ZM42.07,31.4a6.42,6.42,0,0,1-6.4,6.4H14.33a6.42,6.42,0,0,1-6.4-6.4V18.6a6.42,6.42,0,0,1,6.4-6.4H35.67a6.42,6.42,0,0,1,6.4,6.4V31.4Z"/>
+  </g>
+</svg>
