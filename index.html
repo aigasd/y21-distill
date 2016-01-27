@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Jan 26 2016 07:13:30 GMT+0000 (UTC) -->
+<!-- Last Published: Wed Jan 27 2016 05:58:39 GMT+0000 (UTC) -->
 <html data-wf-site="5647e30ce408ac6a4822e1cc" data-wf-page="5647e30ce408ac6a4822e1cd">
 <head>
   <meta charset="utf-8">
@@ -1675,6 +1675,20 @@
   </script>
   <script>
     $('.thinkshop-wrapper').on('click', function(){
+        $('.global-wrapper').css({
+            'height':'100vh',
+            'overflow':'hidden'
+        });
+    });
+    $('.modal-close').on('click', function(){
+        $('.global-wrapper').css({
+            'height':'auto',
+            'overflow':'auto'
+        });
+    });
+  </script>
+  <script>
+    $('.workshop-wrapper').on('click', function(){
         $('.global-wrapper').css({
             'height':'100vh',
             'overflow':'hidden'
