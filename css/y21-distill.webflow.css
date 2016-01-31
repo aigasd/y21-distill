@@ -1739,6 +1739,16 @@ li {
   clear: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.presenting-sponsor-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 html.w-mod-js *[data-ix="jumping-dude"] {
   -webkit-transform: translate(0px, 100%);
   -ms-transform: translate(0px, 100%);
