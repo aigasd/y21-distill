@@ -546,6 +546,13 @@ li {
   background-repeat: no-repeat;
 }
 
+.modal-speaker-headshot.paul {
+  background-image: url('../images/paul_trani@2x.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .modal-speaker-bio {
   position: relative;
   overflow: visible;
@@ -1180,8 +1187,8 @@ li {
 
 .shop-presenter-headshot-container.adobe {
   background-color: #fb6b3b;
-  background-image: url('../images/silhouette_picture.jpg');
-  background-position: 50% 50%;
+  background-image: url('../images/paul_trani@2x.jpg');
+  background-position: 50% 29%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1747,6 +1754,20 @@ li {
   margin-top: 40px;
   margin-bottom: 40px;
   text-align: center;
+}
+
+.paul-trani {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 200;
+  overflow: auto;
+  background-color: #fff;
+  -webkit-transform: translate(-100%, 0px);
+  -ms-transform: translate(-100%, 0px);
+  transform: translate(-100%, 0px);
 }
 
 html.w-mod-js *[data-ix="jumping-dude"] {
