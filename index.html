@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Wed Feb 03 2016 06:35:27 GMT+0000 (UTC) -->
+<!-- Last Published: Sat Feb 06 2016 02:25:42 GMT+0000 (UTC) -->
 <html data-wf-site="5647e30ce408ac6a4822e1cc" data-wf-page="5647e30ce408ac6a4822e1cd">
 <head>
   <meta charset="utf-8">
@@ -1699,58 +1699,34 @@
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
   <script>
+    $('.modal-close').on('click', function(){
+        $('body').css({
+            'height':'auto',
+            'overflow':'auto'
+        });
+    });
     $('.headshot-wrapper').on('click', function(){
-        $('.global-wrapper').css({
+        $('body').css({
             'height':'100vh',
             'overflow':'hidden'
         });
     });
-    $('.modal-close').on('click', function(){
-        $('.global-wrapper').css({
-            'height':'auto',
-            'overflow':'auto'
-        });
-    });
-  </script>
-  <script>
     $('.thinkshop-wrapper').on('click', function(){
-        $('.global-wrapper').css({
+        $('body').css({
             'height':'100vh',
             'overflow':'hidden'
         });
     });
-    $('.modal-close').on('click', function(){
-        $('.global-wrapper').css({
-            'height':'auto',
-            'overflow':'auto'
-        });
-    });
-  </script>
-  <script>
     $('.workshop-wrapper').on('click', function(){
-        $('.global-wrapper').css({
+        $('body').css({
             'height':'100vh',
             'overflow':'hidden'
         });
     });
-    $('.modal-close').on('click', function(){
-        $('.global-wrapper').css({
-            'height':'auto',
-            'overflow':'auto'
-        });
-    });
-  </script>
-  <script>
     $('.lunch-details').on('click', function(){
-        $('.global-wrapper').css({
+        $('body').css({
             'height':'100vh',
             'overflow':'hidden'
-        });
-    });
-    $('.modal-close').on('click', function(){
-        $('.global-wrapper').css({
-            'height':'auto',
-            'overflow':'auto'
         });
     });
   </script>
