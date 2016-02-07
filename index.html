@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Sat Feb 06 2016 02:25:42 GMT+0000 (UTC) -->
+<!-- Last Published: Sun Feb 07 2016 08:36:02 GMT+0000 (UTC) -->
 <html data-wf-site="5647e30ce408ac6a4822e1cc" data-wf-page="5647e30ce408ac6a4822e1cd">
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,25 @@
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/yConference_logo_favicon.png">
   <link rel="apple-touch-icon" href="images/yConference_logo_webclip.png">
+  <style>
+    /* Blend modes */
+    .mbm-normal{mix-blend-mode: normal;}
+    .mbm-multiply{mix-blend-mode: multiply;}
+    .mbm-screen{mix-blend-mode: screen;}
+    .mbm-overlay{mix-blend-mode: overlay;}
+    .mbm-darken{mix-blend-mode: darken;}
+    .mbm-lighten{mix-blend-mode: lighten;}
+    .mbm-color-dodge{mix-blend-mode: color-dodge}
+    .mbm-color-burn{mix-blend-mode: color-burn;}
+    .mbm-hard-light{mix-blend-mode: hard-light;}
+    .mbm-soft-light{mix-blend-mode: soft-light;}
+    .mbm-difference{mix-blend-mode: difference;}
+    .mbm-exclusion{mix-blend-mode: exclusion;}
+    .mbm-hue{mix-blend-mode: hue;}
+    .mbm-saturation{mix-blend-mode: saturation;}
+    .mbm-color{mix-blend-mode: color;}
+    .mbm-luminosity{mix-blend-mode: luminosity;}
+  </style>
   <style>
     /* Angled section top/bottom areas */
     .section-before,
@@ -86,7 +105,7 @@
     <div id="home" class="site-wrapper">
       <section id="about" class="w-section about-section">
         <div class="site-heading-background"></div>
-        <div class="site-heading"><img alt="Y21 Distill. About you. But bigger." src="images/heading.svg" class="heading-shapes"><img alt="Overhead photo of people chatting" src="images/heading_people2.png" class="heading-people"><img src="images/AIGA-SD_1Line_Blk.svg" class="heading-aiga-logo">
+        <div class="site-heading"><img alt="Y21 Distill. About you. But bigger." src="images/heading.svg" class="heading-shapes mbm-multiply"><img alt="Overhead photo of people chatting" src="images/heading_people2.png" class="heading-people mbm-multiply"><img src="images/AIGA-SD_1Line_Blk.svg" class="heading-aiga-logo">
           <div class="heading-logo-lockup"><img src="images/speech_bubble.svg" class="speech-bubble"><img src="images/y_logo_year_lockup.svg" class="logo-lockup"><a href="https://www.eiseverywhere.com/ereg/newreg.php?eventid=145940&amp;" target="_blank" class="w-hidden-tiny w-button button heading-register-button">Register Now</a>
           </div>
         </div>
@@ -181,7 +200,7 @@
                 </div>
                 <div class="speaker-info-overlay">
                   <h3>Yichi Zhang</h3>
-                  <div class="speaker-occupation">Co-Founder of McGann+Zhang</div>
+                  <div class="speaker-occupation">Co-founder of McGann/Zhang</div>
                 </div>
               </div>
             </div>
@@ -248,7 +267,7 @@
                 </div>
                 <div class="speaker-info-overlay">
                   <h3>Jen Bilik</h3>
-                  <div class="speaker-occupation">Moderator</div>
+                  <div class="speaker-occupation">Moderator, Founder of Knock Knock</div>
                 </div>
               </div>
             </div>
@@ -427,7 +446,7 @@
                   <div class="time">12:00 pm</div>
                 </div>
                 <div class="w-col w-col-9 w-col-small-9 event-column">
-                  <div class="event">On-Your-Own Lunch / Lunch Topics Selection</div><a href="#" data-ix="lunch-details-modal" class="w-button button lunch-details">Lunch Details</a>
+                  <div class="event">On-Your-Own Lunch / Lunch with a Local Design Leader</div><a href="#" data-ix="lunch-details-modal" class="w-button button lunch-details">Lunch Details</a>
                 </div>
               </div>
               <div class="session-label-wrapper">
@@ -438,7 +457,7 @@
                   <div class="time">2:00 pm</div>
                 </div>
                 <div class="w-col w-col-9 w-col-small-9 event-column">
-                  <div class="event">Adobe Artist in Residence</div>
+                  <div class="event">Paul Trani</div>
                 </div>
               </div>
               <div class="w-row saturday-row">
@@ -696,10 +715,10 @@
       <section id="sponsors" class="w-section sponsors-section">
         <div class="w-container section-intro">
           <h2 class="dark-blue">Sponsors</h2>
-          <p class="intro-paragraph dark-blue">Please join us in supporting the companies and organizations that help make the Y Design Conference possible. This event wouldn't happen without them. During the conference, feel free to stop by the Resource Center featuring our sponsors and say hello.</p>
+          <p class="intro-paragraph dark-blue">Please join us in supporting the companies and organizations that help make the Y Design Conference possible. This event wouldn't happen without them. During the conference, make sure to stop by the Resource Center featuring our sponsors and say hello. Collect a sticker from each sponsor on your badge sheet to be entered to win a sweet prize!</p>
         </div>
-        <h3 class="text-center">2016 Presenting Sponsor</h3>
-        <div class="presenting-sponsor-container">
+        <div class="w-container presenting-sponsor-container">
+          <h3 class="text-center">2016 Presenting Sponsor</h3>
           <a href="http://www.adobe.com/" target="_blank" class="w-inline-block presenting-sponsor"><img alt="Adobe logo" width="115" src="images/adobe_logo_grayscale_2x.png">
           </a>
         </div>
@@ -802,7 +821,7 @@
       </div>
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
-          <p class="speaker-bio">Louise Fili is principal of Louise Fili Ltd, specializing in food packaging and restaurant identities. Formerly senior designer for Herb Lubalin, Fili was art director of Pantheon Books for eleven years, where she designed over 2000 book jackets. She has received awards from every major design competition, including Gold and Silver Medals from the New York Art Directors Club and the Society of Illustrators, the Premio Grafico from the Bologna Book Fair, and three James Beard nominations. She is a member of the Art Directors Hall of Fame and is a recipient of the AIGA Medal for Lifetime Achievement. Fili has taught and lectured on graphic design and typography and her work is in the permanent collections of the Library of Congress, the Cooper Hewitt Museum, and the Bibliotheque Nationale. She was the recipient of a National Endowment for the Arts design grant, and is co-author, with Steven Heller, of Italian Art Deco, Dutch Moderne, Streamline, Deco Type, Cover Story, British Modern, Deco Espana, German Modern, French Modern, Typology, Design Conoisseur, Counter Culture, Stylepedia, Euro Deco, Scripts, Shadow Type, and Stencil Type. She has also written and designed The Cognoscenti’s Guide to Florence, Italianissimo, Grafica della Strada, and Graphique de la Rue, and teaches every summer at the SVA Masters Workshop in Italy. A best-selling monograph of her work, Elegantissima, was published in 2012.</p>
+          <p class="speaker-bio">Louise Fili is principal of Louise Fili Ltd, specializing in food packaging and restaurant identities. Formerly senior designer for Herb Lubalin, Fili was art director of Pantheon Books for eleven years, where she designed over 2000 book jackets. She has received awards from every major design competition, including Gold and Silver Medals from the New York Art Directors Club and the Society of Illustrators, the Premio Grafico from the Bologna Book Fair, and three James Beard nominations. She is a member of the Art Directors Hall of Fame and is a recipient of the AIGA Medal for Lifetime Achievement. Fili has taught and lectured on graphic design and typography and her work is in the permanent collections of the Library of Congress, the Cooper Hewitt Museum, and the Bibliotheque Nationale. She was the recipient of a National Endowment for the Arts design grant, and is co-author, with Steven Heller, of <em data-new-link="true">Italian Art Deco</em>, <em data-new-link="true">Dutch Moderne</em>, <em data-new-link="true">Streamline</em>, <em data-new-link="true">Deco Type</em>, <em data-new-link="true">Cover Story</em>, <em data-new-link="true">British Modern</em>, <em data-new-link="true">Deco Espana</em>, <em data-new-link="true">German Modern</em>, <em data-new-link="true">French Modern</em>, <em data-new-link="true">Typology</em>, <em data-new-link="true">Design Connoisseur</em>, <em data-new-link="true">Counter Culture</em>, <em data-new-link="true">Stylepedia: A Guide to Graphic Design Mannerisms, Quirks, and Conceits</em>, <em data-new-link="true">Euro Deco</em>, <em data-new-link="true">Scripts, Shadow Type</em>, and <em data-new-link="true">Stencil Type</em>. She has also written and designed The <em data-new-link="true">Cognoscenti’s Guide to Florence</em>, <em data-new-link="true">Italianissimo</em>, <em data-new-link="true">Grafica della Strada</em>, and <em data-new-link="true">Graphique de la Rue</em>, and teaches every summer at the SVA Masters Workshop in Italy. A best-selling monograph of her work, <em data-new-link="true">Elegantissima</em>, was published in 2012.</p>
         </div>
       </div>
     </div>
@@ -826,7 +845,7 @@
       </div>
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
-          <p class="speaker-bio">Steven Heller is the co-chair with Lita Talarico of the MFA Design / Designer as Author + Entrepreneur program and the SVA Masters Workshop in Rome. He writes the Visuals column for The New York Times Book Review, a weekly column for The Atlantic online and The Daily Heller / Imprint online. He has written more than 170 books on graphic design, illustration and political art, including The Design Entrepreneur (with Lita Talarico), Paul Rand, Merz to Emigre and Beyond: Avant Garde Magazine Design of the Twentieth Century, Design Literacy: Understanding Graphic Design, Citizen Designer, Stylepedia: A Guide to Graphic Design Mannerisms, Quirks, and Conceits (with Louise Fili), The Anatomy of Design: Uncovering the Influences and Inspirations in Modern Graphic Design, Iron Fists: Branding the 20th Century Totalitarian State and 100 Ideas that Changed Graphic Design. He is a contributing editor for Print, Design Observer, and Eye. Heller is the recipient of the Art Directors Club Special Educators Award, the AIGA Medal for Lifetime Achievement, the School of Visual Arts’ Masters Series Award and the 2011 National Design Award for "Design Mind.”</p>
+          <p class="speaker-bio">Steven Heller is the co-chair with Lita Talarico of the MFA Design / Designer as Author + Entrepreneur program and the SVA Masters Workshop in Rome. He writes the <em data-new-link="true">Visuals</em> column for <em data-new-link="true">The New York Times Book Review</em>, a weekly column for <em data-new-link="true">The Atlantic</em> online and <em data-new-link="true">The Daily Heller / Imprint</em> online. He has written more than 170 books on graphic design, illustration and political art, including <em data-new-link="true">The Design Entrepreneur</em> (with Lita Talarico), <em data-new-link="true">Paul Rand</em>, <em data-new-link="true">Merz to Emigre and Beyond: Avant Garde Magazine Design of the Twentieth Century</em>, <em data-new-link="true">Design Literacy: Understanding Graphic Design</em>, <em data-new-link="true">Citizen Designer</em>, <em data-new-link="true">Stylepedia: A Guide to Graphic Design Mannerisms, Quirks, and Conceits</em> (with Louise Fili), <em data-new-link="true">The Anatomy of Design: Uncovering the Influences and Inspirations in Modern Graphic Design</em>, <em data-new-link="true">Iron Fists: Branding the 20th Century Totalitarian State and 100 Ideas that Changed Graphic Design</em>. He is a contributing editor for <em data-new-link="true">Print</em>, <em data-new-link="true">Design Observer</em> and <em data-new-link="true">Eye</em>. Heller is the recipient of the Art Directors Club Special Educators Award, the AIGA Medal for Lifetime Achievement, the School of Visual Arts’ Masters Series Award and the 2011 National Design Award for "Design Mind.”</p>
         </div>
       </div>
     </div>
@@ -853,8 +872,8 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
           <p class="speaker-bio">Amy Levine is a Partner and Design Director of Visual Asylum. Amy’s noteworthy career spans twenty years and encompasses art direction, design and production of two and three dimensional graphic communication pieces. With a Bachelor’s Degree of Fine Arts from Kansas City Art Institute in Missouri, Levine is a Colorado transplant who now considers San Diego her home.</p>
-          <p class="speaker-bio">Prior to Visual Asylum she worked with agencies in both cities including Davidson Communities, Oliver McMillan, Blanchard Training and Development and Lomas Group. Her work has been recognized by numerous organizations, including International Typographic Design, International Self Promotion, Print Magazine, How Magazine, CommArts Magazine, The American Institute of Graphic Arts, the Type Directors Club and CASE Studies Magazine.</p>
-          <p class="speaker-bio">Levine has served on the board of directors for the San Diego Chapter of AIGA – the Professional Association of Graphic Artists – for over 15 years. She is a past president of the organization and during her tenure was appointed chair of the AIGA Y Conference in 2013 and 2014. Amy also teaches Advanced Typography at San Diego City College.</p>
+          <p class="speaker-bio">Prior to Visual Asylum she worked with agencies in both cities including Davidson Communities, Oliver McMillan, Blanchard Training and Development and Lomas Group. Her work has been recognized by numerous organizations, including International Typographic Design, International Self Promotion, <em data-new-link="true">Print Magazine</em>, <em data-new-link="true">How Magazine</em>, <em data-new-link="true">CommArts Magazine</em>, The American Institute of Graphic Arts, the Type Directors Club and <em data-new-link="true">CASE Studies Magazine</em>.</p>
+          <p class="speaker-bio">Levine has served on the board of directors for the San Diego Chapter of AIGA – the Professional Association of Design – for over 15 years. She is a past president of the organization and during her tenure was appointed chair of the AIGA Y Conference in 2013 and 2014. Amy also teaches Advanced Typography at San Diego City College.</p>
           <p class="speaker-bio">Amy’s passion and natural talent for the design of the built environment are pivotal attributes for the studio, from themed restaurant design to museum exhibition graphics. Amy has a refined sense of the art of fine typographic design as well as exposure to fiber arts and product design that influence the work of the studio.</p>
         </div>
       </div>
@@ -882,7 +901,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
           <p class="speaker-bio">MaeLin Levine is the Partner and Creative Director of Visual Asylum. Her work has been nationally recognized by multiple organizations. She was also awarded the prestigious AIGA Fellow Award in 2008. Originally from Leadville, Colorado, Levine holds a BFA in Graphic Communications Design from the University of Denver and participated in the AIGA professional program at Harvard Business School.</p>
-          <p class="speaker-bio">MaeLin served on the board of the San Diego Chapter of AIGA – the professional association of Graphic Artists – for sixteen years and was president for four years. In that role she was part of the team that envisioned and launched the Y Conference, now in it’s 21st year, and developed the first ever international chapter of the organization.</p>
+          <p class="speaker-bio">MaeLin served on the board of the San Diego Chapter of AIGA – the professional association of Design – for sixteen years and was president for four years. In that role she was part of the team that envisioned and launched the Y Conference, now in it’s 21st year, and developed the first ever international chapter of the organization.</p>
           <p class="speaker-bio">More recently Levine has turned her attention toward a new passion project as President of the Board of Trustees of the Urban Discovery Academy (UDA) – a highly successful K-8 charter school. This unique learning environment integrates the creative DNA of Visual Asylum into its curriculum and character development programs. Levine is also a design instructor at San Diego City College, where she has served as an adjunct faculty member for nearly twenty years.</p>
           <p class="speaker-bio">Levine’s hallmark style incorporates bold use of color and whimsical touches, and she is inspired by Alexander Girard, Charles &amp; Ray Eames, Edith Head, folk art, toys, dolls, fabric and paper. Collaborative by nature, MaeLin appreciates working with clients who challenge the status quo and value the big picture.</p>
         </div>
@@ -897,7 +916,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-headshot geoff bbm-multiply">
         <div class="modal-speaker-info">
           <h3 class="modal-speaker-name">Geoff McGann</h3>
-          <div class="modal-speaker-occupation">Lead Designer of Nike’s “Just Do It” Campaign, COO at McGann+Zhang Studio</div>
+          <div class="modal-speaker-occupation">Lead Designer of Nike’s “Just Do It” Campaign, COO at McGann/Zhang Studio</div>
           <a href="https://www.facebook.com/mcgannzhang" target="_blank" class="w-inline-block speaker-link-container"><img alt="Facebook icon" height="40" src="images/icon_facebook.svg" class="speaker-link-icon">
           </a>
           <a href="https://twitter.com/mcgannzhang" target="_blank" class="w-inline-block speaker-link-container"><img alt="Twitter icon" height="40" src="images/icon_twitter.svg" class="speaker-link-icon">
@@ -911,12 +930,12 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
           <p class="speaker-bio">Geoff McGann’s initial career began in 1985 as a film and advertising major at the Art Center College of Design in Pasadena, California, and from there he was hired at Wieden+Kennedy in Portland, where he was one of the initial, principal creative forces behind the “Just Do It” television and print campaign which he worked on for ten years.</p>
-          <p class="speaker-bio">Geoff left Wieden in 1995, pursuing interests in commercials and documentary film as a writer/director, as well as developing his fine-art photography, design and poetry, which has been shown at exhibitions in NY, Chicago, Miami and Los Angeles.</p>
+          <p class="speaker-bio">Geoff left Wieden in 1995, pursuing interests in commercials and documentary film as a writer/director, as well as developing his fine-art photography, design and poetry, which has been shown at exhibitions in New York, Chicago, Miami and Los Angeles.</p>
           <p class="speaker-bio">In 2005, Geoff was elected as Creative Director at Public Interest, a non-profit advertising agency/production company dedicated solely to socially-aware, cause-marketing initiatives, funded by The Gates Foundation (Amnesty, AIDS-AID, Partnership for a Drug-Free America, Wounded Warriors).</p>
           <p class="speaker-bio">In 2010, Geoff held the ECD/Program Director position at 72U, the in-house advertising and communications school at 72andSunny.</p>
         </div>
         <p class="speaker-bio">Two years later, Geoff left for Wieden+Kennedy again, to head their in-house school, WK12. A year later, in 2013, he accepted a Professor position at the VCU Brandcenter, a two-year graduate school program for creative marketing.</p>
-        <p class="speaker-bio">Currently, Geoff is the co-founder and Chief Creative Officer at McGann/Zhang, an advertising agency/production company in Los Angeles.</p>
+        <p class="speaker-bio">Currently, Geoff is the Co-founder and Chief Creative Officer at McGann/Zhang, an advertising agency/production company in Los Angeles.</p>
         <p class="speaker-bio">McGann/Zhang is currently in the process of building their own in-house communications school, which is scheduled to open in the spring of 2017.</p>
       </div>
     </div>
@@ -929,7 +948,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-headshot yichi bbm-multiply">
         <div class="modal-speaker-info">
           <h3 class="modal-speaker-name">Yichi Zhang</h3>
-          <div class="modal-speaker-occupation">International Advertisement and Marketing Expert, Co-Founder of McGann+Zhang Studio</div>
+          <div class="modal-speaker-occupation">International Advertisement and Marketing Expert, Co-founder of McGann/Zhang Studio</div>
           <a href="https://www.facebook.com/mcgannzhang" target="_blank" class="w-inline-block speaker-link-container"><img alt="Facebook icon" height="40" src="images/icon_facebook.svg" class="speaker-link-icon">
           </a>
           <a href="https://twitter.com/mcgannzhang" target="_blank" class="w-inline-block speaker-link-container"><img alt="Twitter icon" height="40" src="images/icon_twitter.svg" class="speaker-link-icon">
@@ -943,7 +962,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
           <p class="speaker-bio">Yichi Zhang is an accomplished businessman and entrepreneur. Since relocating to the United States from China at the age of sixteen to finish high school, he has founded and run three successful independent businesses, was the first International Student to be elected president of the University of Richmond’s business school student government, and by employing his personal branding skills, had successful internships at a number of blue chip financial institutions.</p>
-          <p class="speaker-bio">After graduating and shifting his focus from finance to advertising and marketing, Yichi enrolled in the creative brand management program at VCU Brandcenter. While studying for his masters, he also served as global business director for his family’s extensive retail jewelry business, representing the company at multiple major global trade shows and overseeing the performance of over ten International jewelry brands in his family’s stores throughout China. A prolific social media presence on the Chinese social media platform WeChat, Yichi (diaosiyichi) has thousands of followers and hosts frequent webinars for numerous Chinese educational organizations. In 2015 he received his master’s degree and founded his own advertising agency along with co-founder Geoff McGann.</p>
+          <p class="speaker-bio">After graduating and shifting his focus from finance to advertising and marketing, Yichi enrolled in the creative brand management program at VCU Brandcenter. While studying for his masters, he also served as Global Business Director for his family’s extensive retail jewelry business, representing the company at multiple major global trade shows and overseeing the performance of over ten International jewelry brands in his family’s stores throughout China. A prolific social media presence on the Chinese social media platform, WeChat, Yichi (diaosiyichi) has thousands of followers and hosts frequent webinars for numerous Chinese educational organizations. In 2015, he received his master’s degree and founded his own advertising agency along with Co-founder, Geoff McGann.</p>
         </div>
       </div>
     </div>
@@ -980,7 +999,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-headshot melissa bbm-multiply">
         <div class="modal-speaker-info">
           <h3 class="modal-speaker-name">Melissa Eccles</h3>
-          <div class="modal-speaker-occupation">Creative Director at Elastic, Creator of Game of Thrones Advertisement Media</div>
+          <div class="modal-speaker-occupation">Creative Director at Elastic, Creator of Game of Thrones Immersive Media</div>
           <a href="https://www.facebook.com/Elastictv-314805018549374/" target="_blank" class="w-inline-block speaker-link-container"><img alt="Facebook icon" height="40" src="images/icon_facebook.svg" class="speaker-link-icon">
           </a>
           <a href="https://twitter.com/melissaeccles" target="_blank" class="w-inline-block speaker-link-container"><img alt="Twitter icon" height="40" src="images/icon_twitter.svg" class="speaker-link-icon">
@@ -993,7 +1012,7 @@
       </div>
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
-          <p class="speaker-bio">Melissa is Creative Director, Immersive Entertainment at Elastic. A digital geek with an MFA in Cinema Television from the University of Southern California, Melissa has led the creative, strategic and technical crafting of complex projects; from the first interactive video experience on YouTube to moving the Space Shuttle Endeavour through the streets of Los Angeles. She focuses on creating deeply connected, contextual experiences for audiences, fans and brands alike and her work continues to push the limits of storytelling beyond the confines of the screen into the physical world. Melissa has conceived and built award winning work for television shows such as HBO’s Game of Thrones and brands like VW, HBO, MTV, Nike, Burger King, Microsoft, Adidas, Coke Zero, Toyota, General Mills, American Express and others. She’s equally at home creating immersive and non-traditional engagement experiences, documentary series, TV spots, social campaigns, game integrations and enterprise website sites. Her work has been honored by the Cannes Lions, The Webby Awards, One Show, LIA, Effies, D&amp;AD, The Addy’s, ProMax BDA among others. This year Melissa has been a speaker at SXSW, The International Space Development Conference and the Microsoft Social Computing Symposium.</p>
+          <p class="speaker-bio">Melissa is Creative Director, Immersive Entertainment at Elastic. A digital geek with an MFA in Cinema Television from the University of Southern California, Melissa has led the creative, strategic and technical crafting of complex projects including the first interactive video experience on YouTube to moving the Space Shuttle Endeavour through the streets of Los Angeles. She focuses on creating deeply connected, contextual experiences for audiences, fans and brands alike and her work continues to push the limits of storytelling beyond the confines of the screen into the physical world. Melissa has conceived and built award winning work for television shows such as HBO’s Game of Thrones and brands like VW, HBO, MTV, Nike, Burger King, Microsoft, Adidas, Coke Zero, Toyota, General Mills, American Express and others. She’s equally at home creating immersive and non-traditional engagement experiences, documentary series, TV spots, social campaigns, game integrations and enterprise website sites. Her work has been honored by the Cannes Lions, The Webby Awards, One Show, LIA, Effies, D&amp;AD, The Addy’s, ProMax BDA among others. This year Melissa has been a speaker at SXSW, The International Space Development Conference and the Microsoft Social Computing Symposium.</p>
         </div>
       </div>
     </div>
@@ -1056,7 +1075,7 @@
       <div class="w-col w-col-6 w-col-stack modal-speaker-headshot jen bbm-multiply">
         <div class="modal-speaker-info">
           <h3 class="modal-speaker-name">Jen Bilik</h3>
-          <div class="modal-speaker-occupation">Moderator</div>
+          <div class="modal-speaker-occupation">Y21 Moderator, Founder of Knock Knock</div>
           <a href="https://www.facebook.com/knockknock" target="_blank" class="w-inline-block speaker-link-container"><img alt="Facebook icon" height="40" src="images/icon_facebook.svg" class="speaker-link-icon">
           </a>
           <a href="https://twitter.com/knockknock?lang=en" target="_blank" class="w-inline-block speaker-link-container"><img alt="Twitter icon" height="40" src="images/icon_twitter.svg" class="speaker-link-icon">
@@ -1073,7 +1092,7 @@
       </div>
       <div class="w-col w-col-6 w-col-stack modal-speaker-bio">
         <div class="speaker-bio-container">
-          <p class="speaker-bio">Jen Bilik is the owner and founder of <a class="inline-link" href="http://knockknockstuff.com/">Knock Knock</a>, celebrated independent makers of clever gifts, books, and whatever else they can think up. Jen started Knock Knock out of a desire to write and design at the same time. Drawing from &nbsp;her background in book editing, writing, graphic design, and various arts and crafts, Jen was initially a reluctant businessperson but quickly became a passionate entrepreneur who speaks about the business side of Knock Knock as often as the creative side. Knock Knock goods are carried in some 6,000 stores across the United States, from independent boutiques to retailers including Barnes &amp; Noble and Urban Outfitters, as well as in 45 countries around the globe. Since launching the company in 2002, Jen has performed every role and made every mistake—and lived to tell the tale.</p>
+          <p class="speaker-bio">Jen Bilik is the Founder and CEO of Knock Knock, celebrated independent makers of clever gifts, books, and whatever else they can think up. Jen started Knock Knock out of a desire to write and design at the same time. Drawing from her background in book editing, writing, graphic design, and various arts and crafts, Jen was initially a reluctant businessperson but quickly became a passionate entrepreneur who speaks about the business side of Knock Knock as often as the creative side. Knock Knock goods are carried in some 6,000 stores across the United States, from independent boutiques to retailers including Barnes &amp; Noble and Urban Outfitters, as well as in 45 countries around the globe. Since launching the company in 2002, Jen has performed every role and made every mistake—and lived to tell the tale.</p>
         </div>
       </div>
     </div>
@@ -1108,13 +1127,12 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Color and Grayscale are in the minds of every designer from concept to deliverables. These design elements are extremely important to the overall design vision. Consistency is a must and accurate reproduction is a given. Yet, color can be a problem. This Thinkshop will bring you up to date on the current trends of color in digital and print design.</p>
+          <p class="shop-description">Color and Grayscale are in the minds of every designer from concept to deliverables. These design elements are extremely important to the overall design vision. Consistency is a must and accurate reproduction is a given. Yet, color can be a problem. This Thinkshop will bring you up-to-date on the current trends of color in digital and print design.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container mark bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Marc Aguilera</h6>
-          <p class="presenter-bio">An award winning photographer and print technology educator for the creative industry, Marc has presented lectures and demos for Epson, hp, Canon and X-Rite. Focusing on color management, Marc is also an instructor in the photography departments at UCSD Extension. Certified as an Apple Pro and Trainer, his approach to digital imaging and printing is rooted in the understanding of ICC color managed workflows, from capture to press.</p>
-          <p class="presenter-bio">Follow Marc on twitter @colorcritical</p>
+          <p class="presenter-bio">An award winning photographer and print technology educator for the creative industry, Marc has presented lectures and demos for Epson, HP, Canon and X-Rite. Focusing on color management, Marc is also an instructor in the photography department at UCSD Extension. Certified as an Apple Pro and Trainer, his approach to digital imaging and printing is rooted in the understanding of ICC color managed workflows, from capture to press.</p>
         </div>
       </div>
     </div>
@@ -1160,15 +1178,11 @@
           <p class="presenter-bio">When Skye and Amoris were old enough, Morris took the family on the road as the EarthWalkers, a family band with a message for preserving the environment using bluegrass music and comedy to bring home the message. They traveled all over the United States performing for schools, colleges entertaining thousands of kids and adults alike. Morris played guitar, Skye played banjo while Lynn and Amoris sang all the while mixing humor into the show to keep the audience laughing and having fun while talking about pollution and keeping America beautiful.</p>
           <p class="presenter-bio">They logged over 2,000 shows in three years nationwide. Skye and Amoris were home schooled during that time and their parents encouraged their creativity with art, writing and music.</p>
           <p class="presenter-bio">Once the EarthWalkers finished touring, they moved to Oregon. Throughout all their travels Skye remained focused on art. This led him to a pre-college visual arts program called JumpstART at Oregon State University which he attended for two summers and earned a four year art scholarship to Oregon State University. Through college Skye did a lot of various commercial art projects including lots of murals on campus. Skye’s father, Morris, taught him about lettering and how to do murals when he was in high school. Morris had been a sign painter in the 70’s and early 80’s and had done a fair amount of murals as well. He wanted to pass this knowledge down to Skye so he could use it to his benefit.</p>
-          <p class="presenter-bio">While he loved murals, he focused on fine art and then transitioned to Graphic Design at OSU. Skye received a BFA in Graphic Design in 2001, packed his bags and surfboards and moved back to Southern California and headed straight to Encinitas. He’d been in and out of Encinitas his whole life and he knew he wanted to live there so he could surf as much as possible.</p>
-          <p class="presenter-bio">Throughout Skye’s professional career he’s worked in-house and on a contract basis for companies such as: Rip Curl, Redsand, prAna, Dragon, Nike, Liquid Force, UCLA Athletics and more. In 2011 Whole Foods contacted Skye about doing murals for their new Encinitas store, needless to say he was elated and it kickstarted his passion for murals and large format art again.</p>
-          <p class="presenter-bio">Since then, Skye has created original commercial murals for Whole Foods, California Coast Credit Union, The Cardinal Group, Mesa Rim, Farm Lab, Royal Liquor and many more.</p>
-          <p class="presenter-bio">Since then, Skye has created original commercial murals for Whole Foods, California Coast Credit Union, The Cardinal Group, Mesa Rim, Farm Lab, Royal Liquor and many more.</p>
+          <p class="presenter-bio">While he loved murals, he focused on fine art and then transitioned to Graphic Design at OSU. Skye received a BFA in Graphic Design in 2001, packed his bags and surfboards and moved back to Southern California and headed straight to Encinitas. He’s been in and out of Encinitas his whole life and he knew he wanted to live there so he could surf as much as possible.</p>
+          <p class="presenter-bio">Throughout Skye’s professional career, he’s worked in-house and on a contract basis for companies such as: Rip Curl, Redsand, prAna, Dragon, Nike, Liquid Force, UCLA Athletics and more. In 2011, Whole Foods contacted Skye about doing murals for their new Encinitas store and, needless to say, he was elated as it kickstarted his passion for murals and large format art again.</p>
           <p class="presenter-bio">Having a strong graphic design and fine art background helps Skye to work with clients to create original murals that meld with the themes of the company or project. Skye loves to paint murals that are just of his own vision, but he equally loves the challenge of creating permanent large scale murals and installations for clients who usually have a lot they want to convey.</p>
           <p class="presenter-bio">Travel is a big part of being a commercial muralist and Skye has created murals in California, Oregon, Arizona, Colorado and Texas, with his sights set on doing murals anywhere and everywhere he can.</p>
           <p class="presenter-bio">Going forward Skye’s goal is to do as many mural projects as possible within California and beyond. He believes it’s a great way to bring something special to any community or business and also raise awareness about the importance of art in our daily lives.</p>
-          <p class="presenter-bio">For more on Skye checkout: <a target="_blank" class="inline-link" href="http://www.skyewalkerart.com">skyewalkerart.com</a>
-          </p>
         </div>
       </div>
     </div>
@@ -1183,7 +1197,7 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Inbound marketing is the warm, fuzzy, feel-good response to the cold and calculating past of SEO and SEM. In this talk, you’ll learn about what inbound content marketing is and how to combine simple approaches to social media, visual content, web content and SEO into the necessary components of a well-executed content campaign.</p>
+          <p class="shop-description">Inbound marketing is the warm, fuzzy, feel-good response to the cold and calculating past of SEO and SEM. In this Thinkshop, you’ll learn about what inbound content marketing is and how to combine simple approaches to social media, visual content, web content and SEO into the necessary components of a well-executed content campaign.</p>
           <p class="shop-description">We'll answer these questions:</p>
           <p class="shop-description">What is inbound marketing and why should I use it?
             <br>Why is persona definition so important and how do I do it?
@@ -1210,12 +1224,12 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Traditional printing processes like letterpress, foil stamping and embossing have even more applications today than when they were originally introduced. These impressive prints communicate importance, elegance and quality. Creating truly amazing prints takes an understanding of the strengths and weaknesses of the process and a different approach than CMYK printing. We’ll review examples of and how to best design for excellent specialty printing and how not to go broke on production costs in the process.</p>
+          <p class="shop-description">Traditional printing processes like letterpress, foil stamping and embossing have even more applications today than when they were originally introduced. These impressive prints communicate importance, elegance and quality. Creating truly amazing prints, takes an understanding of the strengths and weaknesses of the process and a different approach than CMYK printing. We’ll review examples of and how to best design for excellent specialty printing and how not to go broke on production costs in the process.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container daniel bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Daniel Heffernan</h6>
-          <p class="presenter-bio">Well get a bio for Daniel very soon!</p>
+          <p class="presenter-bio">We'll get some more details about Daniel soon!</p>
         </div>
       </div>
     </div>
@@ -1250,12 +1264,12 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Come learn about the 3D Printing Process! We'll update this description very soon with more specifics.</p>
+          <p class="shop-description">Come learn about the 3D Printing Process! Katie will walk you through what it takes to get started with 3D printing.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container fablab bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Katie Rast</h6>
-          <p class="presenter-bio">Katie Rast is the Director of <a class="inline-link" target="_blank" href="http://www.fablabsd.org/">Fab Lab San Diego</a>, and has worked with the Massachusetts Institute of Technology to develop the San Diego instantiation of the Global Network of MIT Fab Labs. &nbsp;Since 2007, Katie has managed this local invention space, and has developed and deployed programs focused on innovation, ideation, hardware development, and rapid prototyping. &nbsp;Katie has been an evangelist for the Maker Movement for the past eight years, and remains dedicated to the belief that communities benefit when tools, teams and training are made accessible. As a part of her ongoing efforts to grow the local maker community, Katie co-produces the Maker Faire in San Diego, a showcase of local innovation and creativity. This year, the San Diego Maker Faire collaborated with Balboa Park and the City of San Diego to produce a park-wide event that brought over 25,000 attendees to Balboa Park during its centennial anniversary year.</p>
+          <p class="presenter-bio">Katie Rast is the Director of Fab Lab San Diego, and has worked with the Massachusetts Institute of Technology to develop the San Diego instantiation of the Global Network of MIT Fab Labs. Since 2007, Katie has managed this local invention space, and has developed and deployed programs focused on innovation, ideation, hardware development, and rapid prototyping. Katie has been an evangelist for the Maker Movement for the past eight years, and remains dedicated to the belief that communities benefit when tools, teams and training are made accessible. As a part of her ongoing efforts to grow the local maker community, Katie co-produces the Maker Faire in San Diego, a showcase of local innovation and creativity. This year, the San Diego Maker Faire collaborated with Balboa Park and the City of San Diego to produce a park-wide event that brought over 25,000 attendees to Balboa Park during its centennial anniversary year.</p>
           <p class="presenter-bio">The San Diego Fab Lab is currently working with inventors and entrepreneurs to assist in the development of hardware and physical products that include the design and development of projects that include household items, custom prosthetics, 3D printed fashion, drones and wearable electronics.</p>
         </div>
       </div>
@@ -1272,18 +1286,18 @@
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
           <p class="shop-description">Are you a designer that shudders at the thought of learning to code? Then let this Thinkshop bring you the courage you need!</p>
-          <p class="shop-description">As designers in 2016 many of us work alongside developers - learning their vocabulary will help improve communication and make you an asset in any design team.</p>
-          <p class="shop-description">In this Thinkshop we will learn the difference between HTML, CSS, and JavaScript and when they are used.</p>
-          <p class="shop-description">Additionally, we will get comfortable "looking under the hood" at the raw code of popular websites in order to recognize their structure and organization.</p>
+          <p class="shop-description">As designers in 2016, many of us work alongside developers - learning their vocabulary will help improve communication and make you an asset in any design team.</p>
+          <p class="shop-description">In this Thinkshop, we will learn the difference between HTML, CSS, and JavaScript as well as when they are used.</p>
+          <p class="shop-description">We will get comfortable "looking under the hood" at the raw code of popular websites in order to recognize their structure and organization.</p>
           <p class="shop-description">For the more ambitious, we will also download some free HTML/CSS toolkits and learn how to use them to create and edit simple web code.</p>
-          <p class="shop-description">Bringing a laptop is not mandatory but recommended (if you want to participate in hands-on training). &nbsp;Please also have an up-to-date version of Google Chrome or FireFox running (for website code inspecting) and a copy of Sublime Text (free trial) for practicing a few coding exercises (<a class="inline-link" href="http://www.sublimetext.com/2">download Sublime Text here</a>).</p>
+          <p class="shop-description">Bringing a laptop is not mandatory but recommended (if you want to participate in hands-on training). Please also have an up-to-date version of Google Chrome or Firefox running (for website code inspecting) and a copy of Sublime Text (free trial) for practicing a few coding exercises (<a class="inline-link" href="http://www.sublimetext.com/2" target="_blank">download Sublime Text here</a>).</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container andrew bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Andrew Bergeron</h6>
-          <p class="presenter-bio">Andrew Bergeron is a designer with a tool-belt of front-end development skills. Currently, he is based in San Diego, CA where he is a lead User Experience Designer for <a class="inline-link" target="_blank" href="http://www.everyonecounts.com/">Everyone Counts</a>, a rapidly growing start-up focused on transforming modern election systems. Previously he was at the helm of his own business, <a class="inline-link" target="_blank" href="http://visualrhythm.com/">Visual Rhythm</a>, which provides website and branding solutions for a variety of clients, ranging from startups and nonprofits to corporations and small businesses.</p>
-          <p class="presenter-bio">Recent speaking engagements include "<a class="inline-link" target="_blank" href="http://wordpress.tv/2016/01/05/andrew-bergeron-the-value-of-logos/">The Value of Logos" at WordCamp Orange County</a>, and "<a class="inline-link" target="_blank" href="http://wordpress.tv/2015/10/08/andrew-bergeron-showing-off-the-art-of-the-portfolio/">The Art of the Portfolio" at WordCamp Los Angeles</a>. Andrew has also been interviewed on the WP Tavern podcast as a logo and branding expert.</p>
-          <p class="presenter-bio">Andrew spends his free time surfing, creating <a class="inline-link" target="_blank" href="https://www.instagram.com/p/xtdq_8kmqx/">FontAnimals</a>, and scouring YouTube for <a class="inline-link" target="_blank" href="https://youtu.be/zieXmNwHGYA">rare James Brown videos</a>. You can see his latest-and-greatest work on his website (<a class="inline-link" target="_blank" href="http://visualrhythm.com/">Visual Rhythm</a>) and his <a class="inline-link" target="_blank" href="https://dribbble.com/visualrhythm">Dribbble</a> profile.</p>
+          <p class="presenter-bio">Andrew Bergeron is a designer with a tool-belt of front-end development skills. Currently, he is based in San Diego, CA where he is a lead User Experience Designer for Everyone Counts, a rapidly growing start-up focused on transforming modern election systems. Previously he was at the helm of his own business, Visual Rhythm, which provides website and branding solutions for a variety of clients, ranging from startups and nonprofits to corporations and small businesses.</p>
+          <p class="presenter-bio">Recent speaking engagements include "The Value of Logos" at WordCamp Orange County, and "The Art of the Portfolio" at WordCamp Los Angeles. Andrew has also been interviewed on the WP Tavern podcast as a logo and branding expert.</p>
+          <p class="presenter-bio">Andrew spends his free time surfing, creating FontAnimals, and scouring YouTube for rare James Brown videos. You can see his latest-and-greatest work on his website visualrhythm.com and his Dribbble profile.</p>
         </div>
       </div>
     </div>
@@ -1298,17 +1312,17 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Being a designer and running a business is a tricky balance. When you understand the needs of your business while at the same time cultivate the creativity needed for client work to flourish - magic happens. When you lay a solid foundation for your business that is unique and personalized to ‘who you are’, ‘why you do what you do’ and ‘what you really want’ - you build a stronger brand, have a healthier more sustainable business and ultimately have happier clients. When the right blend of structure is in place you thrive.</p>
+          <p class="shop-description">Being a designer and running a business is a tricky balance. When you understand the needs of your business while at the same time cultivate the creativity needed for client work to flourish - magic happens. When you lay a solid foundation for your business that is unique and personalized to ‘who you are’, ‘why you do what you do’ and ‘what you really want’ - you build a stronger brand, have a healthier more sustainable business and ultimately have happier clients. When the right blend of structure is in place, you thrive.</p>
           <p class="shop-description">This Thinkshop is for creative entrepreneurs who’ve been in business for 10+ years or who have just begun. I will address the essential steps for creating a solid foundation for longevity and strength.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container rashelle bbm-multiply"></div>
           <h6 class="modal-presenter-name">About RaShelle Roberts</h6>
-          <p class="presenter-bio">RaShelle Roberts&nbsp;is the founder of&nbsp;<a class="inline-link" target="_blank" href="http://www.rashelleroberts.com">www.rashelleroberts.com</a>, (previously known as&nbsp;inVision), which specializes in coaching and consulting for creative professionals. In 1998, RaShelle saw the need to develop customized programs and strategies to meet the specific challenges creative business owners face.</p>
+          <p class="presenter-bio">RaShelle Roberts&nbsp;is the founder of rashelleroberts.com, (previously known as&nbsp;inVision), which specializes in coaching and consulting for creative professionals. In 1998, RaShelle saw the need to develop customized programs and strategies to meet the specific challenges creative business owners face.</p>
           <p class="presenter-bio">Prior to forming her coaching practice, RaShelle operated as a business partner, directing the marketing and business development of a thriving design firm in Southern California. She has studied under the industry’s top leaders – attending and leading sessions that discuss leadership skills, innovative business-development techniques, and marketing strategies.</p>
           <p class="presenter-bio">RaShelle has been recognized by thought leaders around the globe for her unique ability to develop flexible, innovative programs that fit the needs of each client. Programs include one-on-one coaching, group workshops and various multimedia courses. RaShelle developed The Creative Business Manifesto™, a course for ‘creatives’ to design a personalized plan that lays a solid foundation to run a small business with longevity, sustainability and strength.</p>
-          <p class="presenter-bio">RaShelle’s workshops have been featured at the HOW Design Conference, AIGA San Diego Y Conference and numerous in-house creative teams. Programs and workshops have been developed including BREW Las Vegas, San Diego, Orange County and various chapters of the AIGA, the Graphic Artists Guild, PRSA and others. In addition, RaShelle has contributed to both the Self-Promo Issue and the Business Annual for HOW Magazine.</p>
-          <p class="presenter-bio">She is an active member of the creative community, has served on several chapter boards of the AIGA, she is a mixed media artist (<a href="http://inprint-mag.com/interview04.html" class="inline-link" target="_blank">click here</a>), is an unschooling mother of two and works closely with organizations that support creative expression as a way of healing for at risk youth.</p>
+          <p class="presenter-bio">RaShelle’s workshops have been featured at the HOW Design Conference, AIGA San Diego Y Conference and numerous in-house creative teams. Programs and workshops have been developed including BREW Las Vegas, San Diego, Orange County and various chapters of the AIGA, the Graphic Artists Guild, PRSA and others. In addition, RaShelle has contributed to both the Self-Promo Issue and the Business Annual for <em data-new-link="true">HOW Magazine</em>.</p>
+          <p class="presenter-bio">She is an active member of the creative community, has served on several chapter boards of the AIGA, a mixed media artist, an unschooling mother of two and works closely with organizations that support creative expression as a way of healing for at risk youth.</p>
         </div>
       </div>
     </div>
@@ -1328,7 +1342,7 @@
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container chris bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Chris Toombs</h6>
-          <p class="presenter-bio">San Diego native Chris Toombs is a jack of all trades. Graphic designer by day and craftsman by night, he spends evenings and weekends exploring the tactile side of design, trying out new techniques in his search to marry message to medium. Chris spent his formative years surfing and swimming, and both remain passions today. He regularly commutes to work at i.d.e.a. by bicycle and enjoys spending time with his wife Monica and his new baby daughter Betsy.</p>
+          <p class="presenter-bio">San Diego native Chris Toombs is a jack of all trades. Graphic designer by day and craftsman by night, he spends evenings and weekends exploring the tactile side of design, trying out new techniques in his search to marry message to medium. Chris spent his formative years surfing and swimming, and both remain passions today. He regularly commutes to work at i.d.e.a. by bicycle and enjoys spending time with his wife, Monica, and his new baby daughter, Betsy.</p>
         </div>
       </div>
     </div>
@@ -1348,10 +1362,8 @@
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container victoria bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Victoria Kibildis</h6>
-          <p class="presenter-bio">20 years ago, I had a desire to create a graduation announcement. The announcement failed, but the desire to learn more led to many calligraphy classes and workshops over the years with fine international teachers. &nbsp;Demonstrations, exhibitions and teaching soon followed.</p>
-          <p class="presenter-bio">To me, calligraphy is like poetry in motion. &nbsp;From the blackest ink letters spring to life filled with energy as they dance across the page, inviting us to be part of the dance.</p>
-          <p class="presenter-bio"><a target="_blank" class="inline-link" href="http://www.quillsandletters.com">quillsandletters.com</a>
-          </p>
+          <p class="presenter-bio">20 years ago, Victoria had a desire to create a graduation announcement. The announcement failed, but the desire to learn more led to many calligraphy classes and workshops over the years with fine international teachers. Demonstrations, exhibitions and teaching soon followed.</p>
+          <p class="presenter-bio">To Victoria, calligraphy is like poetry in motion. &nbsp;From the blackest ink letters springing to life filled with energy as they dance across the page, inviting us to be part of the dance.</p>
         </div>
       </div>
     </div>
@@ -1372,8 +1384,6 @@
           <div class="shop-presenter-headshot-container heber bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Heber Miranda</h6>
           <p class="presenter-bio">A graduate of San Diego City College and San Diego State University, Heber works as a graphic designer at Visual Asylum.</p>
-          <p class="presenter-bio"><a target="_blank" class="inline-link" href="http://behance.net/hmiranda">behance.net/hmiranda</a>
-          </p>
         </div>
       </div>
     </div>
@@ -1393,9 +1403,7 @@
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container writerz bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Writerz Blok</h6>
-          <p class="presenter-bio">Writerz Blok was created to highlight and support urban culture and transform the perception of graffiti art by art audiences, our community, and the larger San Diego region.</p>
-          <p class="presenter-bio"><a target="_blank" class="inline-link" href="http://www.writerzblok.com">writerzblok.com</a>
-          </p>
+          <p class="presenter-bio">Writerz Blok was created to highlight and support urban culture and transform the perception of graffiti art by art audiences, the community, and the larger San Diego region.</p>
         </div>
       </div>
     </div>
@@ -1410,15 +1418,13 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">We'll have more information on this workshop very soon!</p>
+          <p class="shop-description">Tim will demonstrate how creative minds, steady hands and heavy machinery can come together to make amazing work.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container tim bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Tim Butler</h6>
           <p class="presenter-bio">Tim Butler is a masterpiece. Some call him the old, grizzled one around the press because of his vast knowledge and experience, and he takes that as task to continue to teach the lessons he learned from the craftsmen he spent so many hours with growing up. It’s not so much about the final product as it is the process; Tim is in it for the collaboration and the machinery. He believes when work becomes play, we’ve truly made this life what it’s meant to be.</p>
           <p class="presenter-bio">As a San Diego native, Tim has been around the creative and music scene for longer than he likes to admit, and takes genuine pride in what he creates in all ways creative. Whether it’s rippin’ on bass with Sha Na Na or printing another hundred press plates at midnight, he does it with his whole heart.</p>
-          <p class="presenter-bio"><a class="inline-link" target="_blank" href-disabled="http://www.qualityletterpress.com" href-disabled-underline="" href="http://www.qualityletterpress.com">qualityletterpress.com</a>
-          </p>
         </div>
       </div>
     </div>
@@ -1433,7 +1439,7 @@
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">Linocut is a graphic relief printmaking technique in which a block of linoleum is carved by hand to produce a matrix that can be used for multiple prints. The linoleum block is inked with a roller and then impressed onto paper or fabric.</p>
+          <p class="shop-description">Create your own linocut stamp! Linocut is a graphic relief printmaking technique in which a block of linoleum is carved by hand to produce a matrix that can be used for multiple prints. The linoleum block is inked with a roller and then impressed onto paper or fabric. All materials provided, so get ready to get inky and walk away with your own stamped paper!</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container aaron bbm-multiply"></div>
@@ -1471,23 +1477,18 @@
       <div class="close-icon">×</div>
     </div>
     <div class="modal-workshop-title-wrapper">
-      <h4 class="modal-shop-title">Stop Motion Storytelling</h4>
+      <h4 class="modal-shop-title">Stop-Motion Storytelling</h4>
     </div>
     <div class="presenter-bio-wrapper">
       <div class="w-row modal-row">
         <div class="w-col w-col-8 w-col-stack shop-description-column">
-          <p class="shop-description">In this workshop, I will go over the basics of stop-motion videography and detail how I approach each branded project. From concepts and storyboards, to filming and post-work. &nbsp;It doesn't take much to produce a killer Vine using &nbsp;everyday items found around the house. What makes a great Vine is the storytelling behind it.</p>
+          <p class="shop-description">In this workshop, I will go over the basics of stop-motion videography and detail how I approach each branded project. From concepts and storyboards, to filming and post-work. It doesn't take much to produce a killer Vine using everyday items found around the house. What makes a great Vine is the storytelling behind it.</p>
         </div>
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container jethro bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Jethro Ames</h6>
           <p class="presenter-bio">In another lifetime, Jethro Ames was an award-winning Art Director with over 10 years of experience working in the advertising industry. Now, Ames continues his career as a director and creator of micro video campaigns, working with worldwide brands as a Tribeca Film Festival winner of the first ever #6SECFILMS Vine Competition.</p>
-          <p class="presenter-bio">A stop-motion artist with an aptness for storytelling, Jethro uses his spectacular talents to create beautiful Vines for some of the biggest brands including General Electric, Hewlett Packard, Budweiser and Ford Motor Company. With a partial client list of over 50 brands, his work has been featured in leading publications, including The New York Times, NPR and Mashable. Adweek also recently highlighted Jethro as one of the top 10 stop-motion artists doing brilliant work for brands on Vine.</p>
-          <p class="presenter-bio"><a class="inline-link" target="_blank" href="http://www.jethroames.co">jethroames.co</a>
-            <br><a class="inline-link" target="_blank" href="https://vine.co/jethroames">vine.co/jethroamess</a>
-            <br><a class="inline-link" target="_blank" href="http://jethroames.tumblr.com">jethroames.tumblr.com</a>
-            <br><a class="inline-link" target="_blank" href="https://www.facebook.com/jethroamesvines/">facebook.com/jethroamesvines/</a>
-          </p>
+          <p class="presenter-bio">A stop-motion artist with an aptness for storytelling, Jethro uses his spectacular talents to create beautiful Vines for some of the biggest brands including General Electric, Hewlett Packard, Budweiser and Ford Motor Company. With a partial client list of over 50 brands, his work has been featured in leading publications, including <em data-new-link="true">The New York Times</em>, NPR and Mashable. Adweek also recently highlighted Jethro as one of the top 10 stop-motion artists doing brilliant work for brands on Vine.</p>
         </div>
       </div>
     </div>
@@ -1508,9 +1509,6 @@
           <div class="shop-presenter-headshot-container jackie bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Jackie Littman</h6>
           <p class="presenter-bio">Jackie Littman is a designer at Sosolimited, a studio that specializes in digital experiences and interactive installations. She works on projects that blend art, design, information and technology. Jackie has worked with clients such as Apple, Google, Microsoft, Twitter, Under Armour and the Atlantic. She was recognized as a finalist in the Adobe Design Achievement Awards for her interactive storybook app, The Little Bug. Jackie has a background in software instruction and design for the theatre, and received her MFA in graphic design from the Maryland Institute College of Art.</p>
-          <p class="presenter-bio"><a class="inline-link" target="_blank" href="http://www.sosolimited.com">sosolimited.com</a>
-            <br><a class="inline-link" target="_blank" href="http://www.jackielittman.com">jackielittman.com</a>
-          </p>
         </div>
       </div>
     </div>
@@ -1530,7 +1528,7 @@
         <div class="w-col w-col-4 w-col-stack shop-presenter-column">
           <div class="shop-presenter-headshot-container adobe bbm-multiply"></div>
           <h6 class="modal-presenter-name">About Paul Trani</h6>
-          <p class="presenter-bio">Paul Trani is a Senior Worldwide Creative Cloud Evangelist for&nbsp;Adobe&nbsp;where he is passionate about helping designers build compelling content using their creativity and new technology. Whether it’s using 3D printing, touch devices, or building cutting-edge web and mobile experiences. Follow him on Twitter <a target="_blank" href="https://twitter.com/paultrani">@paultrani</a> and on the web at <a href="http://www.paultrani.com" target="_blank">paultrani.com</a>.</p>
+          <p class="presenter-bio">Paul Trani is a Senior Worldwide Creative Cloud Evangelist for&nbsp;Adobe&nbsp;where he is passionate about helping designers build compelling content using their creativity and new technology. Whether it’s using 3D printing, touch devices, or building cutting-edge web and mobile experiences.</p>
         </div>
       </div>
     </div>
@@ -1541,19 +1539,19 @@
     </div>
     <div class="modal-lunch-heading">
       <h4 class="dark-blue">Lunch with a Speaker (Friday)</h4>
-      <p class="dark-blue">Join our legendary speakers for an intimate lunch overlooking Mission Bay. &nbsp;Groups will be limited to 25 with topics selected by the speaker. &nbsp;There is no fee to join the conversation and sandwiches will be catered by <a target="_blank" class="dark-blue" href="http://www.pacifictimesd.com">Pacific Time San Diego</a>.</p>
+      <p class="dark-blue">Join our legendary speakers for an intimate lunch overlooking Mission Bay. Groups will be limited to 25 with topics selected by the speaker. There is no fee to join the conversation and sandwiches will be catered by <a target="_blank" class="dark-blue" href="http://www.pacifictimesd.com">Pacific Time San Diego</a>.</p>
     </div>
     <div class="w-row lunch-speakers-row">
       <div class="w-col w-col-6 lunch-speaker-column">
         <div class="w-clearfix lunch-speaker-info"><img alt="Louise Fili" height="200" src="images/louise_fili.jpg" class="lunch-speaker-headshot">
           <h5 class="lunch-speaker-name">Louise Fili</h5>
-          <div class="text">Let's talk: How should we navigate our careers, &nbsp;accept change, and know when to move on?</div>
+          <div class="text">Let's talk: How should we Navigate our Careers, Accept Change, and know when to Move On?</div>
         </div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
         <div class="w-clearfix lunch-speaker-info"><img alt="Steven Heller" height="200" src="images/steven_heller.jpg" class="lunch-speaker-headshot">
           <h5 class="lunch-speaker-name">Steven Heller</h5>
-          <div class="text">Let's talk: Publishing books and entrepreneurship</div>
+          <div class="text">Let's talk: Publishing Books and Entrepreneurship</div>
         </div>
       </div>
     </div>
@@ -1581,7 +1579,7 @@
       <div class="w-col w-col-6 lunch-speaker-column">
         <div class="w-clearfix lunch-speaker-info"><img alt="Yichi Zhang" height="200" src="images/yichi_zhang@2x.jpg" class="lunch-speaker-headshot">
           <h5 class="lunch-speaker-name">Yichi Zhang</h5>
-          <div class="text">Let's talk:&nbsp;How Do You Let Creative People Know That You Are Creative?</div>
+          <div class="text">Let's talk:&nbsp;How do you let Creative People know that you are Creative?</div>
         </div>
       </div>
     </div>
@@ -1595,14 +1593,14 @@
       <div class="w-col w-col-6 lunch-speaker-column">
         <div class="w-clearfix lunch-speaker-info"><img alt="Steven Heller" height="200" src="images/jen_bilik.jpg" class="lunch-speaker-headshot">
           <h5 class="lunch-speaker-name">Jen Bilik</h5>
-          <div class="text">Let's talk: Should I Take My Product to Market?</div>
+          <div class="text">Let's talk: Should I take my Product to Market?</div>
         </div>
       </div>
     </div>
     <div class="modal-lunch-heading">
       <h4 class="dark-blue">Lunch With a Local Design Leader (Saturday)</h4>
       <p class="dark-blue"><strong data-new-link="true">$30.00</strong> per person.</p>
-      <p class="dark-blue">Catered Lunch on campus at the Garden by the Sea sit-down opportunity with local AIGA Fellows and Industry Leaders. This is a very limited opportunity for tables of 10 per topic.</p>
+      <p class="dark-blue">Sit-down opportunity with local AIGA Fellows and Industry Leaders for a catered lunch on campus at the Garden by the Sea.</p>
     </div>
     <div class="w-row design-leader-row">
       <div class="w-col w-col-6 lunch-speaker-column"><img alt="Tyler Blik" width="300" src="images/tyler_blik@2x.jpg" class="design-leader-headshot">
@@ -1611,7 +1609,7 @@
         <div class="text design-leader-topic">Typographic Design in the Digital Age – Better or Worse?</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">Tyler is the Principal of the 30+ year old San Diego based design firm Blik, guiding &nbsp;brand communication systems for a diverse roster of clients that have included; Adidas Golf, Chronicle Books, Guess, Inc., Nissan, Infiniti and community based non-profits, such as the San Diego Museum of Art, San Diego Arts Foundation, U.S./Mexico Border Philanthropy Partnership and the Athenaeum Music &amp; Arts Library. He has co-authored four books on American trademarks published through Chronicle Books in San Francisco, California. A Chicago native and a graduate of Arizona State University, Blik is an adjunct lecturer at San Diego State University and has facilitated design workshops for MenaLab in Dubai, U.A.E. He has made a commitment of sharing his design experiences, and has held board positions with major regional and national organizations such as the American Institute of Graphic Arts, American Institute of Architects, Orchid &amp; Onions public awareness program and Partners for Livable Places.</p>
+        <p class="design-leader-bio">Tyler is the Principal of the 30+ year old San Diego based design firm Blik, guiding brand communication systems for a diverse roster of clients that have included: Adidas Golf, Chronicle Books, Guess, Inc., Nissan, Infiniti and community based nonprofits, such as the San Diego Museum of Art, San Diego Arts Foundation, U.S./Mexico Border Philanthropy Partnership and the Athenaeum Music &amp; Arts Library. He has co-authored four books on American trademarks published through Chronicle Books in San Francisco, California. A Chicago native and a graduate of Arizona State University, Blik is an adjunct lecturer at San Diego State University and has facilitated design workshops for MenaLab in Dubai, U.A.E. He has made a commitment of sharing his design experiences, and has held board positions with major regional and national organizations such as the American Institute of Graphic Arts, American Institute of Architects, Orchid &amp; Onions public awareness program and Partners for Livable Places.</p>
       </div>
     </div>
     <div class="w-row design-leader-row">
@@ -1621,19 +1619,19 @@
         <div class="text design-leader-topic">Why We Collect?</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">Designers seem to need to collect, organize and make stories from objects. &nbsp;It’s time the like-minded broke bread together and talked about the way, whys and meaning of collecting.</p>
-        <p class="design-leader-bio">Ron Miriello has a Bachelor of Fine Arts in graphic design from Colorado State University. &nbsp;Founded 30 years ago, Miriello Grafico is focused on providing the thinking and brand strategy that help under-performing brands realize their fuller potential. &nbsp;Ron directs brand strategy and the translation of strategy into coordinated design and marketing communications. &nbsp;He is a member of various organizations including: San Diego Italian Film Festival, Amgen Tour of California, American Institute of Graphic Arts. &nbsp;He also writes for the Italian design blog, Italian Ways. &nbsp;Ron travels frequently to feed his curiosity as a sculptor, collector and to quell his fear of boredom.</p>
+        <p class="design-leader-bio">Designers seem to need to collect, organize and make stories from objects. It’s time the like-minded broke bread together and talked about the way, whys and meaning of collecting.</p>
+        <p class="design-leader-bio">Ron Miriello has a Bachelor of Fine Arts in graphic design from Colorado State University. Founded 30 years ago, Miriello Grafico is focused on providing the thinking and brand strategy that help under-performing brands realize their fuller potential. Ron directs brand strategy and the translation of strategy into coordinated design and marketing communications. He is a member of various organizations including: San Diego Italian Film Festival, Amgen Tour of California and the American Institute of Graphic Arts. He also writes for the Italian design blog, Italian Ways. Ron travels frequently to feed his curiosity as a sculptor, collector and to quell his fear of boredom.</p>
       </div>
     </div>
     <div class="w-row design-leader-row">
       <div class="w-col w-col-6 w-clearfix lunch-speaker-column"><img alt="Laura Coe Wright" width="300" src="images/laura_coe@2x.jpg" class="design-leader-headshot">
         <h5 class="design-leader-name">Laura Coe Wright</h5>
         <h5 class="lunch-speaker-title">Principal at COE Design</h5>
-        <div class="text design-leader-topic">How does color influence our decisions and connect brands to consumers?</div>
+        <div class="text design-leader-topic">How does Color Influence our Decisions and Connect Brands to Consumers?</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">Laura Coe Wright, principal and Director of Design for COE Design, has over 30 years experience. COE Design’s focus on branding and packaging solutions begins with concept development and includes a cohesive brand identity across the company, product, packaging, communications and retail environment.</p>
-        <p class="design-leader-bio">An alumnus of Kent State University, Laura has a BFA in graphic design. Her education included study through Kunstgewerbeschule in Basel, Switzerland. Laura began her career in Ohio working as an in-house graphic designer for Huffy and Raleigh Bicycles creating color palettes, product graphics and literature for various product lines before relocating to San Diego, California. A founding member of AIGA San Diego, Laura currently serves on the Advisory Board for the San Diego AIGA chapter.</p>
+        <p class="design-leader-bio">Laura Coe Wright, Principal and Director of Design for COE Design, has over 30 years experience. COE Design’s focus on branding and packaging solutions begins with concept development and includes a cohesive brand identity across the company, product, packaging, communications and retail environment.</p>
+        <p class="design-leader-bio">An alumni of Kent State University, Laura has a BFA in graphic design. Her education included study through Kunstgewerbeschule in Basel, Switzerland. Laura began her career in Ohio working as an in-house graphic designer for Huffy and Raleigh Bicycles creating color palettes, product graphics and literature for various product lines before relocating to San Diego, California. A founding member of AIGA San Diego, Laura currently serves on the Advisory Board for the San Diego AIGA chapter.</p>
       </div>
     </div>
     <div class="w-row design-leader-row">
@@ -1644,7 +1642,7 @@
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
         <p class="design-leader-bio">As designers we have the ability to help a nonprofit with brand development and communications. However, sometimes our best intentions can result in “Pro Bono Blues”. It’s best to establish ground rules from the start to ensure the client doesn’t take advantage of your talents and generous intentions. This will result in a more productive collaboration, reinforcing the value of design and the important role it plays in the effectiveness of a nonprofit.</p>
-        <p class="design-leader-bio">For 20 years, Buchanan Design has delivered results-oriented brand strategy and design communications to energetic startups and established market leaders alike. The San Diego-based firm works with clients in healthcare, telecommunications and wireless, hospitality, legal, fitness and service industries. Buchanan Design has received a wide variety of national awards and their work can be found in leading national and international design publications and industry magazines. Bobby Buchanan believes in social responsibility and recently founded the nonprofit Orange Tree Project, which facilitates partnerships between top design agencies and select nonprofit organizations. &nbsp;Their good cause is helping others accomplish their good cause.</p>
+        <p class="design-leader-bio">For 20 years, Buchanan Design has delivered results-oriented brand strategy and design communications to energetic startups and established market leaders alike. The San Diego-based firm works with clients in healthcare, telecommunications and wireless, hospitality, legal, fitness and service industries. Buchanan Design has received a wide variety of national awards and their work can be found in leading national and international design publications and industry magazines. Bobby Buchanan believes in social responsibility and recently founded the nonprofit Orange Tree Project, which facilitates partnerships between top design agencies and select nonprofit organizations. Their good cause is helping others accomplish their good cause.</p>
       </div>
     </div>
     <div class="w-row design-leader-row">
@@ -1654,7 +1652,7 @@
         <div class="text design-leader-topic">What Designers Should Really Know from a Marketing Director</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">Bennett Peji is a Senior Director at the Jacobs Center for Neighborhood Innovation. He is a strategic marketing and communications planner, brand consultant, designer and frequent international speaker on community-centered design. Peji serves on the boards of Cal Humanities, the University of San Diego Center for Peace and Commerce and the La Jolla Playhouse, where he chairs the Public Leadership Council. He served as a Commissioner of Arts &amp; Culture for the City of San Diego 2003-2012, President of the Filipino-American Chamber of Commerce, Chairman of the Asian Business Association, and AIGA national board member. He is a co-founder of the AIGA Center for Cross-cultural Design. Peji has received lifetime achievement awards from AIGA San Diego and SDX (the San Diego Ad Club), and over 200 marketing/design, business and community awards overall. He is a co-founder of the Baja California Missions Foundation, founded to renovate and preserve the historic missions in Mexico. His work can be seen at &nbsp;<a href="http://www.FormFollowsCulture.com">FormFollowsCulture.com</a> and <a href="http://www.CivicBranding.com">CivicBranding.com</a>.</p>
+        <p class="design-leader-bio">Bennett Peji is a Senior Director at the Jacobs Center for Neighborhood Innovation. He is a strategic marketing and communications planner, brand consultant, designer and frequent international speaker on community-centered design. Peji serves on the boards of Cal Humanities, the University of San Diego Center for Peace and Commerce and the La Jolla Playhouse, where he chairs the Public Leadership Council. He served as a Commissioner of Arts &amp; Culture for the City of San Diego 2003-2012, President of the Filipino-American Chamber of Commerce, Chairman of the Asian Business Association, and AIGA national board member. He is a co-founder of the AIGA Center for Cross-Cultural Design. Peji has received lifetime achievement awards from AIGA San Diego and SDX (the San Diego Ad Club), and over 200 marketing/design, business and community awards overall. He is a co-founder of the Baja California Missions Foundation, founded to renovate and preserve the historic missions in Mexico. His work can be seen at FormFollowsCulture.com and CivicBranding.com.</p>
       </div>
     </div>
     <div class="w-row design-leader-row">
@@ -1675,7 +1673,7 @@
         <div class="text design-leader-topic">Avoiding the One-Trick Pony: Staying Inspired as an In-house Creative</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">With a keen eye for all things one-of-a-kind, Dylan boasts over 17 years of experience in brand design. He has elevated brands including Sony, Qualcomm, Hard Rock Hotel, Shure Microphones, Behr, and Taylor Guitars. Over the years his work has been featured in Communication Arts, HOW, Print &amp; Graphis.</p>
+        <p class="design-leader-bio">With a keen eye for all things one-of-a-kind, Dylan boasts over 17 years of experience in brand design. He has elevated brands including: Sony, Qualcomm, Hard Rock Hotel, Shure Microphones, Behr, and Taylor Guitars. Over the years his work has been featured in <em data-new-link="true">Communication Arts</em>, <em data-new-link="true">HOW</em>, <em data-new-link="true">Print</em> and <em data-new-link="true">Graphis</em>.</p>
         <p class="design-leader-bio">Dylan came to Ballast Point Brewing &amp; Spirits equipped with a powerful imagination and approachability that brings out the best in his team. He is adept at seeing projects from a high level, finding strategic solutions to complex challenges and propelling the business forward with strong, conceptual designs.</p>
         <p class="design-leader-bio">A collector and connoisseur outside of the workplace, Dylan owns an extensive array of deep funk vinyl and lives for the pursuit of fine art.</p>
       </div>
@@ -1687,7 +1685,7 @@
         <div class="text design-leader-topic">What it Takes to Run and Grow a Design Firm</div>
       </div>
       <div class="w-col w-col-6 lunch-speaker-column">
-        <p class="design-leader-bio">As Managing Director of Buchanan Design, Charlie utilizes his 25 years of experience in the design, branding, and marketing industry to ensure the company is run efficiently, that clients’ needs are met, and that our culture encourages camaraderie and fosters innovation. With high value placed on honesty, care, and integrity, he has built a solid reputation for being a strategic, innovative, and entrepreneurial thinker with the ability to pinpoint problems and partner with clients to create the best solutions. His skills as a business leader include strategic planning, brand strategy, creative direction, operational efficiency, relationship building.</p>
+        <p class="design-leader-bio">As Managing Director of Buchanan Design, Charlie utilizes his 25 years of experience in the design, branding, and marketing industry to ensure the company is run efficiently, that clients’ needs are met, and that our culture encourages camaraderie and fosters innovation. With high value placed on honesty, care, and integrity, he has built a solid reputation for being a strategic, innovative, and entrepreneurial thinker with the ability to pinpoint problems and partner with clients to create the best solutions. His skills as a business leader include strategic planning, brand strategy, creative direction, operational efficiency and relationship building.</p>
         <p class="design-leader-bio">Prior to joining Buchanan Design, Charlie was President and Partner at Jacob Tyler, Brand Communications Agency. At Jacob Tyler, Charlie helped build a full-service agency with 30 employees and revenue growth that quadrupled in five years. Charlie established himself in San Diego's creative industry by owning and operating Van Vechten Creative for 18 years, providing clients with brand strategy, graphic design, web design, and traditional marketing services. Some of the longtime clients that Charlie has served include Four Seasons Hotels &amp; Resorts, NuVasive, Total Woman Gym &amp; Spa, Boys &amp; Girls Clubs of San Diego, and Vibra Bank.</p>
         <p class="design-leader-bio">A native San Diegan, Charlie earned a Bachelor of Arts from the University of San Diego, and earned a post-graduate degree in graphic design and advertising from the The Advertising Arts College. After gathering experience at several large San Diego-based advertising and public relations firms, Charlie channeled his energies into building his own business and opened Van Vechten Creative in 1992.</p>
         <p class="design-leader-bio">Charlie is active in the San Diego business and arts communities. He is a past president of AIGA San Diego, the professional association for design. He is also an active member of the San Diego Rotary Club (one of the country’s largest) and has supported the San Diego community by serving on many nonprofit boards.</p>

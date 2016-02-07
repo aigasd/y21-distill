@@ -879,12 +879,6 @@ li {
   transform: translate(-100%, 0px);
 }
 
-.louise-fili.modal {
-  -webkit-transform: translate(-100%, 0px);
-  -ms-transform: translate(-100%, 0px);
-  transform: translate(-100%, 0px);
-}
-
 .steven-heller {
   position: fixed;
   left: 0px;
@@ -894,12 +888,6 @@ li {
   z-index: 200;
   overflow: auto;
   background-color: #fff;
-  -webkit-transform: translate(-100%, 0px);
-  -ms-transform: translate(-100%, 0px);
-  transform: translate(-100%, 0px);
-}
-
-.steven-heller.modal {
   -webkit-transform: translate(-100%, 0px);
   -ms-transform: translate(-100%, 0px);
   transform: translate(-100%, 0px);
@@ -1194,7 +1182,7 @@ li {
 }
 
 .shop-presenter-headshot-container.jackie.bbm-multiply {
-  background-position: 0px 0px;
+  background-position: 0px -54px;
 }
 
 .shop-presenter-headshot-container.adobe {
@@ -1765,7 +1753,13 @@ li {
 .presenting-sponsor-container {
   margin-top: 40px;
   margin-bottom: 40px;
+  border-bottom: 1px solid rgba(16, 30, 142, .4);
   text-align: center;
+}
+
+.presenting-sponsor {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .paul-trani {
@@ -1799,7 +1793,7 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
     text-align: center;
   }
   .intro-paragraph {
-    margin-top: 120px;
+    margin-top: 40px;
   }
   .text.design-leader-topic {
     padding-left: 10px;
@@ -2370,6 +2364,9 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
   }
   .design-leader-headshot {
     margin-right: 0px;
+  }
+  .text-center {
+    position: static;
   }
 }
 
