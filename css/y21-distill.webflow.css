@@ -238,7 +238,7 @@ li {
   position: relative;
   overflow: hidden;
   padding: 100px 30px;
-  background-color: #fff0d9;
+  background-color: #ffe2b5;
 }
 
 .speakers-section {
@@ -590,10 +590,10 @@ li {
   position: relative;
   overflow: hidden;
   height: 500px;
-  background-color: #101e8e;
-  background-image: url('../images/background_people.jpg');
-  background-position: 0px 50%;
-  background-size: cover;
+  background-color: #ffe2b5;
+  background-image: url('../images/background_guy.jpg');
+  background-position: 50% 50%;
+  background-size: 1875px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
