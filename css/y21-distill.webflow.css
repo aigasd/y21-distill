@@ -265,6 +265,12 @@ li {
   transform: translate(0px, 0px);
 }
 
+@media (min-width: 479px) {
+  .headshot {
+    opacity: 0.60;
+  }
+}
+
 .speaker-info-overlay {
   position: absolute;
   bottom: 0px;
@@ -278,8 +284,7 @@ li {
 
 .speaker-occupation {
   color: #101e8e;
-  font-size: 1.8em;
-  line-height: 1;
+  font-size: 1.3em;
   font-weight: 400;
 }
 
@@ -349,7 +354,8 @@ li {
   -ms-transform: translate(0px, -150%) translate(-50%, 0px);
   transform: translate(0px, -150%) translate(-50%, 0px);
   color: #101e8e;
-  font-size: 4em;
+  font-size: 3em;
+  line-height: 1.15;
   text-align: center;
 }
 
