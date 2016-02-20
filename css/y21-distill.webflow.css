@@ -552,7 +552,7 @@ li {
 }
 
 .modal-speaker-headshot.paul {
-  background-image: url('../images/paul_trani@2x.jpg');
+  background-image: url('../images/brian_wood@2x.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1192,7 +1192,7 @@ li {
 
 .shop-presenter-headshot-container.adobe {
   background-color: #fb6b3b;
-  background-image: url('../images/paul_trani@2x.jpg');
+  background-image: url('../images/brian_wood@2x.jpg');
   background-position: 50% 29%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1767,7 +1767,7 @@ li {
   margin-bottom: 20px;
 }
 
-.paul-trani {
+.brian-wood {
   position: fixed;
   left: 0px;
   top: 0px;
