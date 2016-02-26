@@ -1,6 +1,10 @@
+/* Global Syling Elements: added by Adam on 02/25/16 */
+small {
+  font-size: 85%; /* For small print in pricing table */
+}
+
 body {
   font-family: freight-sans-pro, sans-serif;
-  color: #333;
   font-size: 10px;
   line-height: 1.5;
 }
@@ -8,7 +12,7 @@ body {
 h2 {
   margin: 0px;
   font-family: freight-sans-pro, sans-serif;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1;
   font-weight: 600;
   text-align: center;
@@ -228,6 +232,11 @@ li {
   background-color: #101e8e;
 }
 
+.email-section {
+  padding: 100px 30px;
+  background-color: #101e8e;
+}
+
 .shops-section {
   padding: 100px 30px;
   background-color: #101e8e;
@@ -237,7 +246,7 @@ li {
   position: relative;
   overflow: hidden;
   padding: 100px 30px;
-  background-color: #ffe2b5;
+  background-color: #fff0d9;
 }
 
 .speakers-section {
@@ -267,7 +276,7 @@ li {
 
 @media (min-width: 479px) {
   .headshot {
-    opacity: 0.60;
+    opacity: 0.70;
   }
 }
 
@@ -336,6 +345,11 @@ li {
   top: 0px;
   right: 0px;
   margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.about-section.skew-low-right:after {
+  background-color: #fff;
 }
 
 .read-more {
@@ -1233,7 +1247,7 @@ li {
 
 .main-intro {
   margin-top: 260px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size: 2.4em;
   font-weight: 400;
   text-align: center;
@@ -1290,13 +1304,9 @@ li {
 }
 
 .friday-row {
-  margin-bottom: 3px;
+  border-bottom: 1px solid #fb6b3b;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.time-column {
-  text-align: right;
 }
 
 .time {
@@ -1318,7 +1328,7 @@ li {
 }
 
 .saturday-row {
-  margin-bottom: 3px;
+  border-bottom: 1px solid #fb6b3b;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -1610,14 +1620,11 @@ li {
 }
 
 .session-label-wrapper {
-  margin-bottom: 3px;
+  border-bottom: 1px solid #fb6b3b;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 30px;
-}
-
-.session-label-wrapper.morning {
-  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .session-label {
@@ -1640,8 +1647,9 @@ li {
 .conference-day {
   margin-bottom: 0px;
   color: #fff;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 600;
+  margin-top: 5px;
   text-transform: uppercase;
 }
 
@@ -1652,7 +1660,10 @@ li {
 }
 
 .tab-content {
-  border-top: 5px solid #fb6b3b;
+  border-color: #fb6b3b;
+  border-style: solid;
+  border-width: 5px;
+  margin-bottom: 30px;
 }
 
 .orange {
@@ -1678,7 +1689,7 @@ li {
   z-index: 200;
   overflow: auto;
   padding: 0px;
-  background-color: #ffe2b5;
+  background-color: #fff0d9;
   -webkit-transform: translate(-100%, 0px);
   -ms-transform: translate(-100%, 0px);
   transform: translate(-100%, 0px);
@@ -1762,9 +1773,20 @@ li {
   text-align: center;
 }
 
+.email-signup-container {
+  padding: 40px 0 0;
+  text-align: center;
+}
+
+.email-signup-container .button.register-button {
+  width: auto;
+  margin-top: 0;
+  font-size: 2em;
+}
+
 .presenting-sponsor {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .brian-wood {
@@ -1807,6 +1829,10 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
     padding-right: 7px;
     padding-left: 7px;
     font-size: 1.2em;
+  }
+  .email-section.section-before.skew-high-left.section-after.skew-low-left {
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .shops-section.section-before.skew-high-left.section-after.skew-low-left {
     padding-right: 20px;
@@ -1958,9 +1984,6 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
     padding-right: 0px;
     padding-left: 0px;
     border-bottom: 4px solid #333;
-  }
-  .session-label-wrapper {
-    padding-left: 10px;
   }
   .tab-link-wrapper {
     padding-right: 10px;
@@ -2151,7 +2174,6 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
   }
   .venue-section {
     padding-top: 50px;
-    padding-bottom: 50px;
   }
   .address-wrapper {
     width: 100%;
@@ -2191,6 +2213,12 @@ html.w-mod-js *[data-ix="jumping-dude2"] {
     -ms-transform: none;
     transform: none;
     font-size: 2em;
+  }
+  .about-section {
+    padding-bottom: 50px;
+  }
+  .email-section {
+    padding: 50px 10px;
   }
   .shops-section {
     padding: 50px 10px;
