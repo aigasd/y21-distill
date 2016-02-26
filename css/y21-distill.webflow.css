@@ -205,18 +205,18 @@ li {
   position: absolute;
   left: 50%;
   top: 48%;
-  right: 0px;
-  width: 70%;
+  white-space:nowrap;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #101e8e;
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
-  font-size: 2.4em;
+  font-size: 1.9em;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  width: auto;
 }
 
 .button.heading-register-button:hover {
@@ -235,6 +235,12 @@ li {
 .email-section {
   padding: 100px 30px;
   background-color: #101e8e;
+  overflow: hidden;
+  background-image: url('../images/wave_pattern_wide_green_45deg.svg');
+  background-position: 123% -47%;
+  background-size: 166% 166%;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
 }
 
 .shops-section {
